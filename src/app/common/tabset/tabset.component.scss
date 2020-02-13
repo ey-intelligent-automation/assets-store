@@ -1,0 +1,28 @@
+.navposition{
+    position: fixed;
+    top: 65px;
+    z-index: 500;
+    width: 100%;
+}
+.nav{
+    display: flex;
+}
+.nav-tabset{
+    border-bottom: 1px solid #c8ced3;
+    padding: 0 30px;
+    // margin-bottom: 5px;
+    .navlink{
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        padding: .5rem 1rem;
+        margin-top: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+}
+.nav-active{
+    color: #2f353a;
+    background: #fff;
+    border-color: #c8ced3 #c8ced3 #fff;
+}

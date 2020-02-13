@@ -1,0 +1,6 @@
+<nav class="navposition" style="background-color: #91919e;">
+    <div class="nav nav-tabset">
+      <a class="navlink" (click)="changeClass(0)" [ngClass]="{'nav-active': isActive[0] == true}" href="#/home">NLP/NLG</a>
+      <a class="navlink" (click)="changeClass(1)" [ngClass]="{'nav-active': isActive[1] == true}" href="#/second">Machine Learning</a>
+    </div>
+  </nav>
